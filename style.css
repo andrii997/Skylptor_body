@@ -1,0 +1,78 @@
+.logo {
+    float: left;
+    padding-right: 30px;
+}
+
+.container-fluid.nav-bg{
+    background-image: url(img/Untitled-5.png);
+}
+.navbar-collapse{
+    padding: 0;
+}
+.navbar-nav > li > a {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 30px 30px 0 30px;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    color: #e38938;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 3px;
+    background-color: #cccccc;
+}
+.dropdown-menu{
+    border-radius: 0;
+}
+.top_btn {
+    float: right;
+    }
+.btn_all {
+    font-size: 12px;
+    width: 160px;
+    padding: 10px 0;
+    margin: 18px 0 0 5px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+.btn_all:hover {
+    background-color: #fff;
+    color: #e38938;
+}
+@media (max-width: 768px) {
+    .logo {
+        padding-top: 15px;
+    }
+    .navbar-nav > li > a {
+        text-align: center;
+        padding: 10px 10px 0 10px;
+    }
+    .btn_all {
+        width: 130px;
+        float: left;
+    }
+}
+.text_block {
+    color: #fff;
+}
+.btn_allLong {
+    width: 350px;
+}
+.to_bottom {
+    background-color: transparent;
+    color: #7b7778;
+    border: 2px solid #7b7778;
+    border-radius: 50%;
+}
