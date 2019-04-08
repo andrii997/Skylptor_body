@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="node_modules/bootstrapvalidator/dist/css/bootstrapValidator.css">
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" />
@@ -12,54 +14,55 @@
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="node_modules/bootstrapvalidator/dist/js/bootstrapValidator.js"></script>
 </head>
+
 <body>
 
+<div class="backgroundImg background_head">
+  <img src="img/1/background_head.png">
+</div>
 <header class="container-fluid nav-bg">
     <div class="container">
-      <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <span class="logo">
-                    <img src="img/logo.png" alt="Скульптур тела">
-                  </span>
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">ПРОГРАММА <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">ОТЗЫВЫ</a></li>
-                        <li><a href="#">ТАРИФЫ</a></li>
-                        <li><a href="#">КОНТАКТЫ</a></li>
-                    </ul>
-                    <div class="top_btn">
-                      <button class="btn_all">Заполнить анкету</button>
-                      <button class="btn_all">Узнать больше</button>
-                    </div>
-                </div>
-          <div class="text_block">
-            <h2><span>БЕЗОПАСНОЕ</span> ПОХУДЕНИЕ</h2>
-            <h4>Хочешь красивую фигуру уже через месяц?</h4>
-            <p>Тонус тела и мышц, быстрое похедение, красивая фигура<br>
-               Если для тебя эти слова - боль? Тогда ты по адресу!<br>
-               Меня зовут Вячеслав Казанцев и я профессиональный<br>
-               фитнес тренер. Я помогу тебе достить поставленной цели !</p>
-               <a href="#">
-                 <img src="img/Untitled-2.png" alt="">
-               </a>
-               <button class="btn_all btn_allLong">Записаться на бесплатное занятие</button>
-               <button class="to_bottom">&darr;</button>
+     
+        <span class="logo">
+          <a href="/"><img src="img/logo.png" alt="Скульптур тела"></a>
+        </span>
+          <ul class="nav navbar-nav">
+              <li><a href="#">ПРОГРАММА <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">ОТЗЫВЫ</a></li>
+              <li><a href="#">ТАРИФЫ</a></li>
+              <li><a href="#">КОНТАКТЫ</a></li>
+          </ul>
+          <div class="top_btn">
+            <button class="btn_all">Заполнить анкету</button>
+            <button class="btn_all">Узнать больше</button>
           </div>
+      
+      <div class="text_block">
+        <div class="col-md-6 top_text">
+          <h2><b>БЕЗОПАСНОЕ</b> ПОХУДЕНИЕ</h2>
+          <h4>Хочешь красивую фигуру уже через месяц?</h4>
+          <p>Тонус тела и мышц, быстрое похедение, красивая фигура<br>
+            Если для тебя эти слова - боль? Тогда ты по адресу!<br>
+            Меня зовут Вячеслав Казанцев и я профессиональный<br>
+            фитнес тренер. Я помогу тебе достить поставленной цели !</p>
+            <button class="btn_all btn_allLong">Записаться на бесплатное занятие</button>
+        </div>
+        <div class="col-md-4">
+            <a href="#">
+              <img src="img/1/1.png" alt="" class="top_guy">
+            </a>
+        </div>
+      </div>
     </div>
+    
 </header>
-<div class="container">
+<button class="to_bottom">&darr;</button>
+<div class="container first_white">
   <div class="row">
-    <div class="col-md-4">
-      <img src="img/Untitled-7.png" alt="Вячеслав Казанцев">
+    <div class="col-md-6">
+      <img src="img/1/guy_bottom.png" alt="Вячеслав Казанцев">
     </div>
-    <div class="col-md-5">
+    <div class="col-md-6">
       <h3>Вячеслав Казанцев</h3>
       <span>#СкульпторТела</span>
       <p>Инновационная программа "#СкульпторТела":<br>
@@ -69,10 +72,86 @@
           #СкульпторТела - уникальный, авторский метод, разработанный<br> 
           Вячеславом Казанцевым, основанный на индивидуальном<br> 
           сбалансированном питании и комплексе тренировок.</p>
-      <button class="btn_all btn_allLong">Записаться сейчас</button>
+      <button class="btn_orange btn_allLong">Записаться сейчас</button>
     </div>
   </div> 
 </div>
-  
+
+<div class="backgroundImg background_chains">
+  <img src="img/2/background2.png">
+</div>
+<div class="container text-white text-center">
+  <h4>Наши результаты</h4>
+  <div class="line"></div>
+  <div class="before_after m-5">
+    <div class="before">ДО</div>
+    <div class="after">ПОСЛЕ</div>
+    <img src="img/2/before.png" /><img src="img/2/after.png" />
+  </div>
+  <div class="result_comment">
+    <div>
+      <p>Похудел на <b>9 килограм</b> за <b>2 месяца*</b> <br />за программой <b>"S4L"</b> под руководством 
+      </p><span class="result_comment_coach">Вячеслава <b>Казанцева</b></span>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="text-center text-blue third_head">
+    <h4><b>КОМУ ПОМОЖЕТ</b> НАША <b>ПРОГРАММА?</b></h4>
+    <p><b>Наш опыт</b> позволяет работать и получать отличный результат с людьми,</p>
+    <p>у которых нарушения с:</p>
+  </div>
+  <div class="illnesses_container">
+    <div class="card">
+        <h4 class="card-title">Опорно-двигательным аппаратом</h4>
+        <img class="card-img-top" src="img/2/illness1.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">(ратроз, артрит, кифоз, скалиоз, лардоз, грыжи, протрузии и другое нарушение)</p>
+        </div>
+    </div>
+    <div class="card centered_card">
+        <h4 class="card-title">Нарушение эндокринной системы</h4>
+        <img class="card-img-top" src="img/2/illness2.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">(гормональный сбой у женщин) сбои щитовидной железы, Инсульнорещистентность, Диабет 1-2 типа</p>
+        </div>
+    </div>
+    <div class="card">
+        <h4 class="card-title">Нарушение Сердечно - сосудистой системы</h4>
+        <img class="card-img-top" src="img/2/illness4.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">(варикоз, аритмия, тахикардия, гипертонический крис и другое)</p>
+        </div>
+    </div>
+  </div>
+  <div class="illnesses_container illnesses_container_down">
+    <div class="card">
+        <h4 class="card-title">Ожирение</h4>
+        <img class="card-img-top" src="img/2/illness3.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Проблемы с лишним весом, проблемы с сердцем</p>
+        </div>
+    </div>
+    <div class="card">
+        <h4 class="card-title">Нарушение ЖКТ</h4>
+        <img class="card-img-top" src="img/2/illness5.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">(Холецистити, гастрит, язва, изжога, панкреатит)</p>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="backgroundImg background_gym">
+  <img src="img/3/background3.png">
+</div>
+<div class="container">
+  <h4 class="text-white text-center fourth_head">Программа "Скульптор Тела"</h4> 
+  <div  class="video_preview"><img class="video_preview" src="img/3/video.png"></img></div>
+  ПРЕИМУЩЕСТВО И ЦЕНА ПРОГРАМЫ "СКУЛЬПТОР ТЕЛА"
+</div>
+
+
+<script src="js/script.js"></script>
 </body>
 </html>
